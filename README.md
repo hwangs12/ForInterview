@@ -1,5 +1,7 @@
 ## Finding Non-overlapping members between different sets of arrays
 
+
+```javascript
 function sym(args) {
   let arr = []
   for (let i=0;i<arguments.length;i++) {
@@ -7,8 +9,6 @@ function sym(args) {
   }
   return arr
 }
-
-
 
 function helper2(arg1, arg2) {
   let arr = []
@@ -26,3 +26,4 @@ function helper2(arg1, arg2) {
 }
 
 sym([1, 2, 3], [5, 2, 1, 4]);
+```
